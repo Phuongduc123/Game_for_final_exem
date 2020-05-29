@@ -1,0 +1,75 @@
+*{
+    height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+canvas{
+    display: grid;
+    max-height: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius : 30px;
+}
+/* for mobile usage */
+@media only screen and (max-width: 1000px) {
+    canvas{
+        display: grid;
+        max-height: 95%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius : 30px;
+    }
+  }
+
+
+div.uchiru_bg_cell{
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'PT Sans' !important;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-image: url(pictures/back3.png);
+}
+div.uchiru_bg_color{
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'PT Sans' !important;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url(pictures/back2.png);
+}
+div.uchiru_bg_stuff {
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'PT Sans' !important;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url(pictures/back4.png);
+    opacity: 0.6;
+}
+div.uchiru_bg_color_2 {
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'PT Sans' !important;
+    border: 0;  
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    background-image: url(pictures/back1.jpg);
+    background-size: 1400px;
+}
+
+
